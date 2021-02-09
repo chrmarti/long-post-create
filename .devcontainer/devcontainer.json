@@ -1,4 +1,4 @@
 {
-  "image": "ubuntu",
+  "image": "node:latest",
   "postCreateCommand": "for i in `seq 30`; do echo $i; echo $i >>counting.txt; sleep 1; done"
 }
